@@ -21,7 +21,6 @@ let centerY;
 let centerZ;
 let h = 20;
 
-let graphics
 
 function preload(){
 
@@ -52,7 +51,6 @@ function setup(){
 		gif2.hide()
 
 
-	graphics = createGraphics(100, 100)
 
 	let canvas = createCanvas(windowWidth, windowHeight, WEBGL)
 	cam = createCapture(VIDEO);
@@ -87,12 +85,13 @@ function setup(){
 
 function draw(){
 
+	let graphics = createGraphics(100, 100){
 
 	graphics.image(gif)
 	graphics.image(gif1)
 	graphics.image(gif2)
 
-
+	}
 
 	ambientLight(56, 56, 56)
 	ambientMaterial(random(200), random(100))
