@@ -43,6 +43,9 @@ function setup(){
 		gif.play();
 		gif1.play();
 		gif2.play();
+		gif.loop()
+		gif1.loop()
+		gif2.loop()
 
 		gif.hide()
 		gif1.hide()
@@ -83,14 +86,11 @@ function setup(){
 
 function draw(){
 
-		gif.loop()
-		gif1.loop()
-		gif2.loop()
 
 	graphics = createGraphics(10, 10)
-	graphics.image(gif)
-	graphics.image(gif1)
-	graphics.image(gif2)
+	graphics.video(gif)
+	graphics.video(gif1)
+	graphics.video(gif2)
 
 
 
@@ -115,7 +115,7 @@ function draw(){
 	noStroke()
 
 	xoff = xoff + 0.01;
-  	let n = noise(xoff) * width/2;
+  	let n = noise(xoff) * 300;
   	if(n<200){
   	rotateX(frameCount*.008*n)
   	rotateY(frameCount*.0009*n)
