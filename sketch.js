@@ -25,7 +25,7 @@ let graphics
 
 function preload(){
 
-	song = loadSound('solace.mp3');
+	song = loadSound('Solace.mp3');
 
 
 	gif = createVideo('yeet.mov')
