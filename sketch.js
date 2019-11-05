@@ -52,6 +52,7 @@ function setup(){
 		gif2.hide()
 
 
+	graphics = createGraphics(10, 10)
 
 	let canvas = createCanvas(windowWidth, windowHeight, WEBGL)
 	cam = createCapture(VIDEO);
@@ -87,10 +88,9 @@ function setup(){
 function draw(){
 
 
-	graphics = createGraphics(10, 10)
-	graphics.video(gif)
-	graphics.video(gif1)
-	graphics.video(gif2)
+	graphics.image(gif)
+	graphics.image(gif1)
+	graphics.image(gif2)
 
 
 
