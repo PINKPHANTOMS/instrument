@@ -91,9 +91,9 @@ function draw(){
 
 
 	graphics = createGraphics(10, 10)
-	graphics.image(gif)
-	graphics.image(gif1)
-	graphics.image(gif2)
+// 	graphics.image(gif)
+// 	graphics.image(gif1)
+// 	graphics.image(gif2)
 
 
 
