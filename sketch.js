@@ -85,13 +85,11 @@ function setup(){
 
 function draw(){
 
-	let graphics = createGraphics(100, 100){
+	let graphics = createGraphics(100, 100)
 
 	graphics.image(gif, 100, 100)
 	graphics.image(gif1, 100, 100)
 	graphics.image(gif2, 100, 100)
-
-	}
 
 	ambientLight(56, 56, 56)
 	ambientMaterial(random(200), random(100))
