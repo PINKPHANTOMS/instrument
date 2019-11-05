@@ -41,6 +41,8 @@ function setup(){
 	  fft = new p5.FFT();
 
 		gif.play();
+		gif1.play();
+		gif2.play();
 		gif.loop()
 		gif1.loop()
 		gif2.loop()
