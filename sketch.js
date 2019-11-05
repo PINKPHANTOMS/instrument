@@ -43,9 +43,6 @@ function setup(){
 		gif.play();
 		gif1.play();
 		gif2.play();
-		gif.loop()
-		gif1.loop()
-		gif2.loop()
 
 		gif.hide()
 		gif1.hide()
@@ -86,7 +83,9 @@ function setup(){
 
 function draw(){
 
-
+		gif.loop()
+		gif1.loop()
+		gif2.loop()
 
 	graphics = createGraphics(10, 10)
 	graphics.image(gif)
